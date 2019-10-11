@@ -1,0 +1,182 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\000031}}
+*,
+ul,
+li,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000316}}
+#section-1 {
+  background-color: #ff0000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000319}}
+#section-2 {
+  background-color: #ffff00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000322}}
+#section-3 {
+  background-color: #00ff00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000325}}
+#section-4 {
+  background-color: #0000ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000328}}
+#section-5 {
+  background-color: #ff00ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000333}}
+section {
+  height: 100vh;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000344}}
+h2 {
+  font-size: 40px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000349}}
+.menu-link {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  height: 60px;
+  width: 60px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000362}}
+.menu-link:hover span:nth-child(1) {
+  width: 15px;
+  margin-left: 0;
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000375}}
+.menu-link:hover span:nth-child(3) {
+  width: 15px;
+  margin-left: 0;
+  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\0000390}}
+.menu-link span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 2px;
+  width: 30px;
+  background-color: #000000;
+  margin-top: -1px;
+  margin-left: -15px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003102}}
+.menu-link span:nth-child(1) {
+  margin-top: -8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003105}}
+.menu-link span:nth-child(3) {
+  margin-top: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003111}}
+menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 30%;
+  background-color: #000000;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003134}}
+menu ul li {
+  line-height: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003136}}
+menu ul li a {
+  font-size: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003140}}
+menu ul li a:hover::after {
+  -webkit-transform: translateY(-10px) scale(1);
+  transform: translateY(-10px) scale(1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003146}}
+menu ul li a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  -webkit-transform: translateY(-10px) scale(0);
+  transform: translateY(-10px) scale(0);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003163}}
+menu .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  display: block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003179}}
+menu .close-btn:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Rabota WEB\/jQuery Killer\/Урок №16 Практика\. Адаптивное меню\/DZ\/app\/less\/style\.less}line{font-family:\00003187}}
+.menu-active {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
